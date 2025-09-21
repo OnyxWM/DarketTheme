@@ -1,0 +1,26 @@
+{
+  "author": "OnyxWM",
+  "dark": true,
+  "name": "Darket Theme",
+  "editorScheme": "/Darket.xml",
+  "colors": {
+    "black": "#000000",
+    "purple": "#A354BD",
+    "pink": "#FF4C90",
+    "blue": "#06AAFF",
+    "white": "#EEEEEE",
+    "green": "#02AD40"
+  },
+  "ui": {
+    "*": {
+      "background": "black",
+      "inactiveBackground": "black"
+    },
+    "Button.startBackground": "black",
+    "Button.endBackground": "black",
+    "Button.default.endBackground":  "black",
+    "Button.default.startBackground": "black",
+    "EditorTabs.underlinedTabBackground": "black"
+  }
+
+}

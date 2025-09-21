@@ -9,7 +9,6 @@
     <resource-bundle>messages.MyBundle</resource-bundle>
 
     <extensions defaultExtensionNs="com.intellij">
-        <toolWindow factoryClass="com.github.onyxwm.darkettheme.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
-        <postStartupActivity implementation="com.github.onyxwm.darkettheme.startup.MyProjectActivity" />
+        <themeProvider id="com.github.onyxwm.darkettheme" path="/theme/darkettheme.theme.json" />
     </extensions>
 </idea-plugin>
